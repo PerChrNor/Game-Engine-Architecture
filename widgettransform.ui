@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WidgetTransform</class>
+ <widget class="QWidget" name="WidgetTransform">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>332</width>
+    <height>127</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>332</width>
+    <height>127</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>311</width>
+     <height>103</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_pos">
+      <property name="text">
+       <string>Position</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxPosY"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxRotX">
+      <property name="suffix">
+       <string>°</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxScaleY"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_rot">
+      <property name="text">
+       <string>Rotation</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxScaleX"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxPosZ"/>
+    </item>
+    <item row="3" column="3">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxScaleZ"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxRotY">
+      <property name="suffix">
+       <string>°</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_scale">
+      <property name="text">
+       <string>Scale</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxPosX"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QDoubleSpinBox" name="doubleSpinBoxRotZ">
+      <property name="suffix">
+       <string>°</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_X">
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>X</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_Y">
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>Y</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_Z">
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>Z</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Transform</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
